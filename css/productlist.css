@@ -1,0 +1,220 @@
+/* 产品页版心 */
+
+
+/* 1200宽度以内的方案 */
+
+@media screen and (max-width:1200px) {
+    .banner {
+        width: 1200px;
+    }
+    .sparking .head {
+        width: 1200px;
+    }
+    .whisper .floor1 {
+        width: 1200px;
+    }
+}
+
+
+/* 大于1200px的方案 */
+
+@media screen and (min-width:1201px) {
+    .banner {
+        width: 100%;
+    }
+    .sparking .head {
+        width: 100%;
+    }
+    .whisper .floor1 {
+        width: 100%;
+    }
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* banner部分 */
+
+.banner {
+    width: 1833px;
+    height: 460px;
+    background: url(../images/prolist_top.png) no-repeat center center;
+    margin-left: 44px;
+}
+
+
+/* list部分 */
+
+.list {
+    width: 1920px;
+}
+
+.list .w .fl .first {
+    box-sizing: border-box;
+    width: 134px;
+    height: 52px;
+    padding-top: 23px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #d2d2d2;
+    text-indent: 4px;
+    font-size: 16px;
+    color: #666666;
+    line-height: 16px;
+}
+
+.list .w .fl dl dt {
+    margin-top: 32px;
+    text-indent: 4px;
+    font-size: 14px;
+    color: #666666;
+}
+
+.lifeway {
+    margin-top: 41px;
+}
+
+.list .w .fl span {
+    margin-left: 60px;
+}
+
+.list .w .fl .button-minus {
+    display: inline-block;
+    width: 9px;
+    height: 1px;
+    margin-bottom: 4px;
+    margin-left: 60px;
+    background: url(..//images/button——minus.png)
+}
+
+.list .w .fl .button-plus {
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    margin-bottom: 1px;
+    background: url(../images/button_plus.png);
+}
+
+.list .w .fl .third {
+    /* margin: 22px 32px; */
+    margin: 22px 0 22px 32px;
+}
+
+.list .w .fl .third a {
+    font-size: 12px;
+}
+
+.list .w .fl dt span {
+    font-size: 9px;
+}
+
+.list .w .fl .forth {
+    margin: 16px 28px;
+}
+
+.list .w .fl .forth a {
+    font-size: 12px;
+}
+
+.list .proshow {
+    width: 1064px;
+    height: 2181px;
+    background-color: #ececec;
+}
+
+.list .proshow .title {
+    box-sizing: border-box;
+    height: 78px;
+    /* padding: 23px 63px 32px 77px; */
+    padding-left: 77px;
+    padding-right: 63px;
+}
+
+.list .proshow .title h2 {
+    float: left;
+    margin-top: 18px;
+    font-size: 24px;
+    color: #494949;
+}
+
+.list .proshow .title .selector {
+    margin-top: 25px;
+    font-size: 16px;
+    color: #494949;
+    float: right;
+    border-bottom: 2px solid #7adfa9;
+}
+
+.list .proshow .title .selector .button-down {
+    cursor: pointer;
+    display: inline-block;
+    width: 18px;
+    height: 9px;
+    background: url(../images/button_down.png);
+}
+
+.list .w .fl .icon-cheveron-down {
+    margin-left: 53px;
+    color: #7adfa9;
+}
+
+.list .w .proshow .lists li {
+    box-sizing: border-box;
+    float: left;
+    width: 222px;
+    height: 304px;
+    margin-top: 40px;
+    margin-left: 20px;
+    padding: 13px 13px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.list .w .proshow .lists li:nth-child(4n+1) {
+    margin-left: 56px;
+}
+
+.list .w .proshow .lists li .img {
+    width: 191px;
+    height: 191px;
+    overflow: hidden;
+}
+
+.list .w .proshow .lists li img {
+    width: 100%;
+    /* height: 191px; */
+}
+
+.list .w .proshow .lists li h3,
+.list .w .proshow .lists li h4 {
+    text-align: left;
+    text-indent: 5px;
+    color: #666666;
+    display: inline-block;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    font-size: 12px;
+    text-overflow: ellipsis;
+}
+
+.list .w .proshow .lists li h3 {
+    margin-top: 12px;
+    font-weight: normal;
+}
+
+.list .w .proshow .lists li h4 {
+    margin-top: 4px;
+    font-weight: 700;
+}
+
+.list .w .proshow .lists li h5 {
+    margin-top: 8px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 700;
+    color: #888888;
+    text-indent: 5px;
+}

@@ -1,0 +1,109 @@
+.w {
+    width: 1200px;
+    margin: auto;
+}
+
+
+.banner {
+    height: 389px;
+    background: url(../upload/contact/banner.png);
+}
+
+
+/* 联系我们名片 */
+
+.floor1 {
+    position: relative;
+    width: 1920px;
+    height: 432px;
+    background-color: #f1f1f1;
+}
+
+.floor1 .box {
+    position: absolute;
+    top: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 466px;
+    height: 390px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.floor1 h1 {
+    padding: 18px;
+    font-size: 30px;
+    color: #b3b3b3;
+}
+
+.floor1 h2 {
+    margin-bottom: 20px;
+    font-family: FZLTCXHJW--GB1-0;
+    font-size: 18px;
+    color: #b3b3b3;
+}
+
+.floor1 h3 {
+    margin: 12px 0;
+    font-size: 16px;
+    color: #333333;
+}
+
+.floor1 p {
+    font-weight: 700;
+    font-size: 16px;
+    color: #333333;
+}
+
+.floor1 button {
+    display: block;
+    margin: auto;
+    margin-top: 35px;
+    width: 191px;
+    height: 40px;
+    background-color: #19bc64;
+    border-radius: 20px;
+    border: none;
+}
+
+.floor1 .send {
+    background-color: #bd7738;
+}
+
+
+/* 自主查阅列表 */
+
+.list {
+    text-align: center;
+    padding-bottom: 51px;
+}
+
+.list h2 {
+    margin: 40px 0;
+    font-size: 24px;
+    color: #000000;
+}
+
+.list .w {
+    overflow: hidden;
+}
+
+.list dl {
+    float: left;
+    width: 100px;
+    text-align: left;
+    margin: 0 100px;
+}
+
+.list dl dt {
+    margin-bottom: 6px;
+    font-size: 24px;
+    color: #7d7d7d;
+}
+
+.list dl dd {
+    margin-top: 24px;
+    font-family: FZLTCXHJW--GB1-0;
+    font-size: 16px;
+    color: #7d7d7d;
+}

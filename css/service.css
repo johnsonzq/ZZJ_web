@@ -1,0 +1,227 @@
+.w {
+    width: 1200px;
+    margin: auto;
+}
+
+
+/* banner部分 */
+
+.banner {
+    width: 1920px;
+    height: 400px;
+    background: url(../upload/service/banner.png);
+}
+
+
+/* 理念服务 */
+
+.concept {
+    background-color: #fcfbfb;
+    padding-top: 86px;
+    margin-bottom: 72px;
+}
+
+.concept .w {
+    text-align: center;
+    overflow: hidden;
+}
+
+.concept .w h1 {
+    font-family: FZLTCXHJW--GB1-0;
+    font-size: 36px;
+    letter-spacing: 7px;
+    color: #666666;
+}
+
+.concept .w .line {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 54px;
+    height: 1px;
+    background-color: #999;
+    margin: 0 12px;
+}
+
+.concept .w .text {
+    vertical-align: middle;
+    font-size: 24px;
+}
+
+.concept .w .suscri {
+    margin: auto;
+    margin-top: 72px;
+    margin-bottom: 89px;
+    width: 928px;
+    height: 44px;
+    font-size: 16px;
+    color: #666666;
+}
+
+
+/* 服务支持 */
+
+.support {
+    width: 1920px;
+    height: 720px;
+    margin-bottom: 0;
+    background: url(../upload/service/supportbg.png);
+}
+
+.support .w,
+.support .w h1 {
+    color: #fff;
+}
+
+.support .w ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.support .w ul li {
+    float: left;
+    width: 260px;
+}
+
+.support .w ul li img {
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+}
+
+.support .w ul li .top {
+    border-bottom: 3px solid #b3b3b3;
+}
+
+.support .w ul li h3 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.support .w ul li h4 {
+    margin-top: 19px;
+    text-align: left;
+    font-size: 18px;
+    color: #f2f2f2;
+}
+
+.support .w ul li p {
+    margin-top: 40px;
+    text-align: left;
+    width: 257px;
+    font-size: 16px;
+    color: #e6e6e6;
+}
+
+
+/* 服务承诺 */
+
+.commit {
+    height: 628px;
+    background-color: #fff;
+    margin-bottom: 0;
+}
+
+.commit ul {
+    height: 240px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.commit ul li {
+    height: 120px;
+    width: 130px;
+}
+
+.commit ul li .icon {
+    width: 100px;
+    height: 73px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #999;
+}
+
+.commit ul li p {
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 16px;
+    letter-spacing: 0px;
+    color: #4d4d4d;
+}
+
+
+/* 在线保修 */
+
+.warranty {
+    height: 661px;
+    background: url(../upload/service/tmp_1519778704190365_1833X460.png);
+}
+
+.warranty .aside {
+    position: relative;
+    float: right;
+    width: 1008px;
+    height: 761px;
+    background-color: #1a1a1a;
+    opacity: 0.7;
+}
+
+.warranty .aside h1 {
+    padding: 16px 0;
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.warranty .aside .line {
+    position: absolute;
+    top: 86px;
+    left: -20px;
+    width: 1040px;
+    height: 1px;
+    background-color: #999999;
+}
+
+.warranty .aside h2 {
+    margin-top: 30px;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.warranty .aside form {
+    overflow: hidden;
+    width: 509px;
+    color: #fff;
+    margin-left: 100px;
+}
+
+.warranty .aside form input {
+    margin-top: 36px;
+    width: 384px;
+    height: 39px;
+    margin-left: 9px;
+    text-indent: 20px;
+    background-color: #ffffff;
+}
+
+.warranty .aside form .textar {
+    height: 130px;
+}
+
+.warranty .aside button {
+    position: absolute;
+    left: 259px;
+    bottom: 30px;
+    width: 150px;
+    height: 40px;
+    background-color: #1fca6e;
+    border-radius: 19px;
+    font-size: 18px;
+    line-height: 40px;
+    color: #fffefe;
+    border: none;
+}

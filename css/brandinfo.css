@@ -1,0 +1,210 @@
+body {
+    width: 1920px;
+}
+
+.w {
+    width: 1200px;
+    margin: auto;
+}
+
+
+/* banner部分 */
+
+.banner {
+    width: 1920px;
+    height: 683px;
+    background: url(../upload/brandinfo/banner.png);
+}
+
+
+/* 品牌资讯 */
+
+.brandinfo {
+    height: 1294px;
+}
+
+.head {
+    position: relative;
+    height: 75px;
+    border-bottom: 2px solid #ccc;
+}
+
+.brandinfo .title {
+    position: absolute;
+    bottom: -45px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 500px;
+    background-color: #fff;
+}
+
+.brandinfo .title h2 {
+    font-family: FZLTCXHJW--GB1-0;
+    font-size: 36px;
+    font-weight: bold;
+    color: #666666
+}
+
+.brandinfo .title h3 {
+    font-size: 24px;
+    color: #333333;
+}
+
+.brandinfo .box {
+    box-sizing: border-box;
+    width: 1200px;
+    height: 465px;
+    padding-left: 89px;
+    padding-top: 36px;
+    margin-top: 59px;
+    background-color: #e6e6e6;
+}
+
+.brandinfo .box .left {
+    position: relative;
+    float: left;
+    width: 495px;
+    height: 386px;
+    background-color: #fff;
+    margin-right: 10px;
+}
+
+.brandinfo .box .left img {
+    width: 100%;
+    height: 235px;
+}
+
+.brandinfo .box .left h2 {
+    padding: 0 27px;
+    margin: 33px 0;
+    font-size: 18px;
+    color: #000000;
+}
+
+.brandinfo .box .left p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    padding: 0 27px;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 1px;
+    color: #333333;
+}
+
+.brandinfo .box .left span {
+    position: absolute;
+    right: 57px;
+    bottom: 7px;
+    width: 67px;
+    height: 19px;
+    border-radius: 10px;
+    border: solid 1px #3d3d3d;
+    text-align: center;
+    font-size: 12px;
+}
+
+.brandinfo .box .right {
+    float: left;
+    width: 495px;
+}
+
+.brandinfo .box .right .top,
+.brandinfo .box .right .middle {
+    width: 495px;
+    height: 119px;
+    background-color: #ffffff;
+}
+
+.brandinfo .box .right .top .img {
+    float: left;
+    width: 116px;
+    height: 90px;
+    margin: 15px 18px 0 16px;
+}
+
+.brandinfo .box .right .top .img img {
+    width: 100%;
+    height: 100%;
+}
+
+.brandinfo .box .right .top .content {
+    float: left;
+    position: relative;
+    width: 289px;
+}
+
+.brandinfo .box .right .top .content h3 {
+    margin-top: 12px;
+    margin-bottom: 17px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.brandinfo .box .right .top .content p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.brandinfo .box .right .top .content span {
+    position: absolute;
+    bottom: -22px;
+    right: 10px;
+    width: 67px;
+    height: 19px;
+    border-radius: 10px;
+    border: solid 1px #3d3d3d;
+}
+
+.brandinfo .box .right .top .content span a {
+    text-align: center;
+    font-size: 12px;
+}
+
+.brandinfo .box .right .middle {
+    margin: 15px 0;
+}
+
+.brandinfo .w .more {
+    display: block;
+    width: 162px;
+    height: 40px;
+    margin-left: 517px;
+    margin-top: 40px;
+    border: solid 1px #999999;
+    text-align: center;
+    line-height: 40px;
+}
+
+.brandinfo .w .pagination {
+    /* padding-left: 231px;
+    padding-top: 24px; */
+    width: 700px;
+    margin: auto;
+    margin-top: 73px;
+}
+
+.brandinfo .w .pagination button {
+    padding: 14px 18px;
+    margin-right: 12px;
+    border-radius: 10px;
+    border: solid 1px #cccccc;
+    background-color: #fff;
+    font-size: 16px;
+    color: #333333;
+}
+
+.brandinfo .w .pagination button:hover {
+    background-color: #ff7c6d;
+    border: solid 1px #fff;
+}

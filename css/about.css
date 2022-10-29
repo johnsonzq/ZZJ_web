@@ -1,0 +1,211 @@
+/* 顶部图片 */
+
+.banner {
+    width: 100vw;
+    height: 32.3958vw;
+    background: url(../images/about_banner.png) no-repeat 0 0;
+    background-size: 100vw 32.3958vw;
+}
+
+
+/* 公司简介 */
+
+.profilp {
+    background-color: #fcfbfb;
+    padding-top: 86px;
+}
+
+.profilp .head {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.profilp .head h1 {
+    font-family: FZLTCXHJW--GB1-0;
+    font-size: 1.875vw;
+    color: #666666;
+    text-align: center;
+}
+
+.profilp .head h2 {
+    position: relative;
+    width: 100vw;
+    height: 1.9271vw;
+}
+
+.profilp .head .lline,
+.profilp .head .rline {
+    display: block;
+    position: absolute;
+    top: .9375vw;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 2.8125vw;
+    height: .0521vw;
+    background-color: #999;
+    margin: 0 .625vw;
+}
+
+.profilp .head .lline {
+    left: 42.9688vw;
+}
+
+.profilp .head .rline {
+    left: 51.7188vw;
+}
+
+.profilp .head .text {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 46.875vw;
+    width: 5.2083vw;
+    height: 1.9271vw;
+    line-height: 1.9271vw;
+    font-size: 1.25vw;
+    font-weight: 400;
+}
+
+.profilp .body .img {
+    margin: auto;
+    float: left;
+    width: 22.0313vw;
+    height: 24.5833vw;
+}
+
+.profilp .body {
+    overflow: hidden;
+    margin: 47px auto 0;
+    width: 56.1458vw;
+    height: 24.8438vw;
+}
+
+.profilp .body .img {
+    float: left;
+    width: 22.0313vw;
+    height: 24.5833vw;
+}
+
+.profilp .body .img img {
+    width: 100%;
+    height: 100%;
+}
+
+.profilp .body .information {
+    float: left;
+    margin-left: 4.0104vw;
+    width: 30.0521vw;
+    height: 30.0521vw;
+}
+
+.profilp .body .information h2 {
+    padding-left: .8333vw;
+    font-family: FZLTCXHJW--GB1-0;
+    font-size: 1.875vw;
+    color: #19bc64;
+    text-align: left;
+    margin-top: 2.0833vws;
+}
+
+.profilp .body .information h3 {
+    padding-left: .8333vw;
+    font-size: 1.25vw;
+    color: #666666;
+    text-align: left;
+    margin: .6771vws 0;
+}
+
+.profilp .body .information .green {
+    margin-left: .8333vw;
+    width: 9.4792vw;
+    height: .1042vw;
+    background-color: #19bc64;
+    margin-bottom: 1.5625vws;
+}
+
+.profilp .body .information .info {
+    font-size: .8333vw;
+    line-height: 1.5625vws;
+    color: #9c9b9b;
+    text-align: left;
+    margin-top: 3.125vw;
+}
+
+
+/* 文化产品 */
+
+.products .w .text {
+    margin-bottom: 2.2396vw;
+}
+
+.products .body {
+    background-color: red;
+    width: 100vw;
+    height: 32.4479vw;
+    background: url(../images/about_cultural1.png) no-repeat center;
+    background-size: 100vw 32.4479vw;
+}
+
+.products .body {
+    position: relative;
+}
+
+.products .body .information {
+    padding: 0 1.9271vw;
+    position: absolute;
+    top: 4.7396vw;
+    right: 18.2292vw;
+    width: 25.2604vw;
+    height: 19.5833vw;
+    background-color: #fdfdfd;
+}
+
+.products .body .information h2 {
+    margin-top: 1.8229vw;
+    margin-bottom: 2.9688vw;
+}
+
+
+/* 发展历程 */
+
+.develop .body {
+    overflow: hidden;
+    position: relative;
+    height: 11.9792vw;
+}
+
+.develop .body dl {
+    float: left;
+    text-align: left;
+    width: 13.9063vw;
+    padding-bottom: 3.125vw;
+}
+
+.develop .body .middle {
+    margin: 0 5.5729vw;
+}
+
+.develop .body .center {
+    width: 52.9167vw;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+
+.develop .body dl dt {
+    font-size: .9375vw;
+    color: #666666;
+}
+
+.develop .body dl dd {
+    font-size: .8333vw;
+    color: #999999;
+}
+
+.develop .body dl .dd_line {
+    width: 13.9063vw;
+    height: .0521vw;
+    background-color: #999999;
+    margin: 1.0417vw 0;
+}

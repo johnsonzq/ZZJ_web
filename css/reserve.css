@@ -1,0 +1,202 @@
+.w {
+    width: 1200px;
+    margin: auto;
+}
+
+.banner {
+    width: 1920px;
+    height: 631px;
+    background: url(../upload/reserve/banner.png) no-repeat center;
+}
+
+.designers {
+    width: 1920PX;
+    padding-top: 132px;
+    padding-bottom: 79px;
+    text-align: center;
+}
+
+.designers h2 {
+    font-family: FZLTCXHJW--GB1-0;
+    font-size: 36px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.designers h3 {
+    font-size: 24px;
+    color: #000000;
+}
+
+.designers ul {
+    overflow: hidden;
+    margin-top: 77px;
+}
+
+.designers ul li {
+    float: left;
+    text-align: center;
+}
+
+.designers ul li:nth-child(2) {
+    margin: 0 44px;
+}
+
+.designers .name {
+    margin-top: 30px;
+    font-size: 24px;
+    color: #000000;
+}
+
+.designers .export {
+    font-size: 16px;
+}
+
+.designers .more {
+    margin-left: 535px;
+    margin-top: 48px;
+    width: 132px;
+    height: 41px;
+    border-radius: 20px;
+    border: solid 1px #101010;
+    line-height: 41px;
+    text-align: center;
+}
+
+.designers .more a {
+    font-size: 20px;
+}
+
+
+/* 设计大咖 */
+
+.casting {
+    width: 1920px;
+    height: 630px;
+    background: url(../upload/reserve/casting.png);
+}
+
+
+/* 设计师服务 */
+
+.service {
+    padding-bottom: 31px;
+}
+
+.service .box {
+    overflow: hidden;
+    margin-top: 63px;
+    width: 1200px;
+}
+
+.service .reserveipt {
+    width: 343px;
+    margin: 0 27px;
+    border: none;
+}
+
+.service .reserveipt h3 {
+    text-align: left;
+    font-size: 26px;
+    color: #f66c01;
+    margin-top: 28px;
+}
+
+.service .reserveipt form {
+    overflow: hidden;
+}
+
+.service .reserveipt form input {
+    margin-left: 2px;
+    float: left;
+    margin-top: 17px;
+    width: 338px;
+    height: 45px;
+    border: solid 1px #a0a0a0;
+    text-indent: 17px;
+    /* border-color: #313131; */
+}
+
+.service .reserveipt form input:focus {
+    outline: 1px solid #313131;
+}
+
+.service .reserveipt form .textarea {
+    height: 86px;
+    border: solid 1px #a0a0a0;
+    margin-bottom: 2px;
+}
+
+.service .reserveipt button {
+    border: none;
+    width: 340px;
+    height: 61px;
+    background-color: #f66c01;
+    border-radius: 31px;
+    font-size: 24px;
+    color: #fcfaf9;
+    margin-top: 28px;
+}
+
+.reservelist {
+    box-sizing: border-box;
+    width: 340px;
+    height: 392px;
+    border: 2px solid #313131;
+    text-align: center;
+}
+
+.reservelist .lists {
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 328px;
+    padding: 35px 0;
+}
+
+.reservelist .lists .hover {
+    widows: 336px;
+    height: 258px;
+    overflow: hidden;
+}
+
+.reservelist h4 {
+    height: 64px;
+    font-family: MicrosoftYaHei;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #fcfaf9;
+    background-color: #313131;
+    opacity: 0.92;
+    line-height: 64px;
+}
+
+.reservelist p {
+    margin-top: 5px;
+}
+
+.reservelist p i {
+    color: #7b7c7c;
+}
+
+
+/* 设计案例 */
+
+.cases .w ul .case {
+    width: 383px;
+    margin: 0;
+}
+
+.cases .w ul .casem {
+    margin: 0 25px;
+}
+
+.cases .w ul .case .name {
+    font-size: 20px;
+}
+
+.cases .w ul .case .export {
+    font-size: 16px;
+    margin-top: 9px;
+}

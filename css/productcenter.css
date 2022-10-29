@@ -1,0 +1,405 @@
+/* banner部分 */
+
+.banner {
+    box-sizing: border-box;
+    width: 100vw;
+    height: 35.4167vw;
+    background: url(../images/products_banner1.png) no-repeat 0 0;
+    background-size: 100vw 35.4167vw;
+    padding-top: 13.9063vw;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 3.125vw;
+    color: #fff;
+}
+
+.banner h2 {
+    margin-top: -0.2604vw;
+    font-size: 1.0417vw;
+    color: #fff;
+}
+
+.banner h3 {
+    font-size: .7292vw;
+    color: #beb1a3;
+    margin-top: 4.5833vw;
+}
+
+.banner .line {
+    width: 1.9792vw;
+    height: .0521vw;
+    margin: .4688vw auto;
+    background-color: #ffffff;
+}
+
+.banner h4 {
+    font-size: 1.1458vw;
+    color: #ffffff;
+}
+
+.banner h5 {
+    position: relative;
+    margin: 1.5625vw auto;
+    width: 7.1354vw;
+    height: 1.875vw;
+    border: .0521vw solid #fff;
+    font-size: .9375vw;
+    color: #fff;
+    line-height: 1.875vw;
+}
+
+.banner h5 i {
+    position: absolute;
+    top: .8854vw;
+    display: inline-block;
+    width: 1.4583vw;
+    height: .0521vw;
+    background-color: #fff;
+}
+
+.banner h5 .lineright {
+    right: .4167vw;
+}
+
+.banner h5 .lineleft {
+    left: .4167vw;
+}
+
+.icon-add-outline:before {
+    content: "\e902";
+    font-size: 1.1979vw;
+    color: #fff
+}
+
+
+/* 现代都市  */
+
+.urbancity {
+    width: 100%;
+    padding-top: 4.6875vw;
+}
+
+.urbancity .top {
+    margin: auto;
+    text-align: center;
+}
+
+.urbancity .top h2 {
+    font-size: 1.5625vw;
+    color: #565656;
+}
+
+.urbancity .top h3 {
+    position: relative;
+    margin-bottom: 1.7188vw;
+    font-size: 1.25vw;
+    color: #c9a97c;
+}
+
+.urbancity .top h3 .lineleft,
+.urbancity .top h3 .lineright {
+    display: inline-block;
+    position: absolute;
+    top: .9375vw;
+    width: 1.4063vw;
+    height: .1042vw;
+    background-color: #b8b8b8;
+}
+
+.urbancity .top h3 .lineleft {
+    left: 45.1563vw;
+}
+
+.urbancity .top h3 .lineright {
+    right: 45.1563vw;
+}
+
+.urbancity ul {
+    margin: auto;
+    width: 62.5vw;
+    overflow: hidden;
+}
+
+
+.urbancity ul .img1 a div {
+    width: 16.25vw;
+    height: 24.5313vw;
+}
+
+.urbancity ul .img1 a img {
+    width: 100%;
+
+}
+
+.urbancity ul .img2 a div {
+    width: 21.0417vw;
+    height: 31.5625vw;
+}
+
+.urbancity ul .img2 a img {
+    width: 100%;
+}
+
+.urbancity ul .img3 a div {
+    width: 17.2917vw;
+    height: 30.4167vw;
+}
+
+.urbancity ul .img3 a img {
+    width: 100%;
+}
+
+.urbancity ul li {
+    float: left;
+}
+
+.urbancity ul li:nth-child(2) {
+    margin: .7292vw 3.9583vw 0;
+}
+
+.urbancity ul li p {
+    font-size: 1.25vw;
+    color: #999999;
+    text-align: center;
+    margin-top: 1.0417vw;
+}
+
+
+/* 洛洛星辰 */
+
+.sparking .head {
+    width: 100vw;
+    height: 39.5833vw;
+    background: url(../images/products_sparkingcity1.png) no-repeat 0 0;
+    background-size: 100vw 39.5833vw;
+}
+
+.sparking .body {
+    position: relative;
+    box-sizing: border-box;
+    width: 56.8229vw;
+    height: 38.9583vw;
+    border: .4167vw solid #bebebe;
+    margin: 3.125vw auto;
+}
+
+.sparking .body .picl {
+    position: absolute;
+    top: 3.3854vw;
+    left: -3.125vw;
+    width: 35.9375vw;
+    height: 25.3125vw;
+}
+
+.sparking .body .picl img {
+    width: 100%;
+}
+
+.sparking .body .pic2 {
+    position: absolute;
+    bottom: 1.0417vw;
+    right: -2.1875vw;
+    width: 15.7292vw;
+    height: 15.7292vw;
+}
+
+.sparking .body .pic2 img {
+    width: 100%;
+}
+
+.sparking .body .tex {
+    position: absolute;
+    left: 36.3542vw;
+    top: 10vw;
+    width: 16.4063vw;
+    height: 8.1771vw;
+    font-size: .8333vw;
+    color: #666666;
+}
+
+.sparking .foot {
+    width: 62.5vw;
+    margin: auto;
+    overflow: hidden;
+}
+
+.sparking .foot .footl {
+    width: 24.8438vw;
+    vertical-align: top;
+}
+
+.sparking .foot .footl .img1 {
+    width: 13.2813vw;
+    height: 7.8125vw;
+}
+
+.sparking .foot .footl .img2 {
+    width: 9.7917vw;
+    height: 7.9688vw;
+}
+
+.sparking .foot .footl .picr {
+    margin-left: 3.125vw;
+}
+
+.sparking .foot .footl .tex {
+    overflow: hidden;
+    padding-top: 2.3438vw;
+    text-align: right;
+    font-size: .8333vw;
+    color: #666666;
+}
+
+.sparking .foot .footl .more {
+    width: 7.8125vw;
+    height: 2.1875vw;
+    margin-top: 2.3438vw;
+    border-radius: .9896vw;
+    border: solid .0521vw #949494;
+    text-align: center;
+    line-height: 2.1875vw;
+    font-size: .8333vw;
+    color: #666666;
+}
+
+.sparking .foot .footr {
+    width: 35.3125vw;
+}
+
+.sparking .foot .footr img {
+    width: 100%;
+}
+
+
+/* 清风物语 */
+
+.whisper .floor1 {
+    width: 100vw;
+    height: 33.4375vw;
+    background: url(../images/products_maplewhisper1.png) no-repeat 0 0;
+    background-size: 100vw 33.4896vw;
+}
+
+.whisper .whisperbody {
+    width: 62.5vw;
+    padding-top: 60px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.whisper .whisperbody h2 {
+    margin-left: 3.2292vw;
+    margin-top: .9375vw;
+    font-size: 1.1458vw;
+    color: #666666;
+}
+
+.whisper .whisperbody h3 {
+    margin-left: 3.2292vw;
+    margin-top: 1.25vw;
+    font-size: .8333vw;
+    line-height: 1.4583vw;
+    color: #666666;
+}
+
+.whisper .whisperbody h4 img {
+    width: 23.6458vw;
+    height: 12.3438vw;
+}
+
+.whisper .whisperbody .more {
+    display: block;
+    margin-top: 2.2917vw;
+    margin-left: 3.2292vw;
+    width: 7.8125vw;
+    height: 2.1875vw;
+    border-radius: 1.0938vw;
+    border: solid .0521vw #949494;
+    text-align: center;
+    line-height: 2.1875vw;
+    font-size: .8333vw;
+    color: #8b8a8a;
+}
+
+.whisper .whisperbody .bigpic {
+    margin-left: 2.1354vw;
+}
+
+.whisper .whisperbody .bigpic img {
+    width: 36.6146vw;
+    height: 30.4688vw;
+}
+
+.whisper .whisperfoot {
+    padding-top: 2.9167vw;
+}
+
+.whisper .whisperfoot ul {
+    overflow: hidden;
+}
+
+.whisper .whisperfoot li {
+    position: relative;
+}
+
+.whisper .whisperfoot li img {
+    width: 19.7917vw;
+    height: 19.7917vw;
+}
+
+.whisper .whisperfoot li:nth-child(2) {
+    margin: 0 1.5104vw;
+}
+
+.whisper .whisperfoot span {
+    position: absolute;
+    top: 15.8333vw;
+    left: 50%;
+    transform: translateX(-50%);
+    height: .8854vw;
+    font-size: .8333vw;
+    color: #3f3f3f;
+}
+
+
+/* 折叠城市 */
+
+.folding .foldingtop {
+    background-image: url(../images/products_foldingcity1.png);
+}
+
+.folding .whisperbody .fl h4 a {
+    display: block;
+    position: relative;
+}
+
+.folding .whisperbody .fl h4 a strong {
+    position: absolute;
+    top: 4.4271vw;
+    left: 12.8646vw;
+    display: block;
+    width: 6.4063vw;
+    height: .8854vw;
+    font-size: .8333vw;
+    color: #666666;
+}
+
+.folding .whisperbody .fl h4 a i {
+    position: absolute;
+    top: 6.8229vw;
+    left: 14.2188vw;
+    width: 3.125vw;
+    height: .7813vw;
+    font-size: .7292vw;
+    color: #999999;
+}
+
+.folding .whisperfoot {
+    margin-bottom: 7.0833vw;
+}
+
+.folding .whisperfoot li:nth-child(2) {
+    margin: 0;
+}

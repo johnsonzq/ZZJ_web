@@ -1,0 +1,176 @@
+.w {
+    width: 1200px;
+    margin: auto;
+}
+
+
+/* banner部分 */
+
+.banner {
+    width: 1920px;
+    height: 846px;
+    background: url(../upload/productdetail/banner.png);
+}
+
+
+/* 商品详情部分 */
+
+.detail {
+    width: 1920px;
+    padding-top: 31px;
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: #666666;
+}
+
+.detail h2 {
+    text-align: center;
+}
+
+.detail h3 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #999999;
+}
+
+.detail .detailpics {
+    text-align: center;
+}
+
+.detail .detailpics img {
+    margin-top: 80px;
+}
+
+.detail .customize {
+    padding-top: 116px;
+    padding-bottom: 71px;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.detail .customize h4 {
+    padding-left: 65px;
+    font-size: 30px;
+    color: #666666;
+}
+
+.detail .customize_sele {
+    padding-left: 65px;
+    overflow: hidden;
+    margin-top: 34px;
+}
+
+.detail .customize_sele .right {
+    width: 279px;
+    margin-left: 58px;
+}
+
+.detail .customize_sele h5 {
+    margin-top: 100px;
+    margin-bottom: 16px;
+    font-size: 22px;
+    color: #777777;
+}
+
+.customize_sele .colors {
+    width: 264px;
+    height: 82px;
+    background: url(../upload/productdetail/colors.png) no-repeat center;
+}
+
+.customize_sele h6 {
+    margin-top: 30px;
+}
+
+.customize_sele .change {
+    margin-top: 47px;
+    width: 212px;
+    height: 40px;
+    border-radius: 20px;
+    border: solid 1px #cac9c9;
+    font-size: 16px;
+    line-height: 40px;
+    color: #666666;
+    text-align: center;
+}
+
+.customize_sele .right p {
+    margin-top: 36px;
+    font-size: 14px;
+    color: #999999;
+}
+
+.customize .recommend {
+    position: relative;
+    margin-top: 89px;
+    width: 1280px;
+    height: 311px;
+    border: solid 1px #dad8d8;
+}
+
+.customize .recommend .button {
+    position: absolute;
+    top: -22px;
+    left: 500px;
+    overflow: hidden;
+    background-color: #fff;
+    padding: 0 25px;
+}
+
+.customize .recommend .button li {
+    float: left;
+    padding: 4px;
+    font-size: 22px;
+    color: #999999;
+}
+
+.customize .recommend .button li:nth-child(2) {
+    padding: 0;
+    width: 1px;
+    height: 36px;
+    background-color: #dcdcdc;
+    margin: 0 22px;
+}
+
+.customize .recommend .button li:nth-child(3) {
+    color: #5fdc9a;
+    border-bottom: 2px solid #5fdc9a;
+}
+
+.customize .group {
+    overflow: hidden;
+    margin-top: 64px;
+    padding-left: 52px;
+}
+
+.customize .group li {
+    margin: 0 12.5px;
+    width: 170px;
+    float: left;
+}
+
+.customize .group li:last-child {
+    margin-top: 75px;
+    margin-left: 7px;
+    width: 30px;
+    height: 30px;
+}
+
+.customize .group li:last-child span {
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.customize .group li p {
+    margin-top: 16px;
+    text-align: center;
+    font-size: 14px;
+    color: #444444;
+}
+.footer {
+    width: 1920px;
+    
+}

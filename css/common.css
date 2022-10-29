@@ -1,0 +1,238 @@
+/* 引入icomoon字体 */
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?yirofr');
+    src: url('../fonts/icomoon.eot?yirofr#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?yirofr') format('truetype'), url('../fonts/icomoon.woff?yirofr') format('woff'), url('../fonts/icomoon.svg?yirofr#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* header部分 */
+. .header {
+    width: 100vw;
+    overflow: hidden;
+    margin-bottom: .1042vw;
+}
+
+.header .logo {
+    float: left;
+    margin-left: 20.0521vw;
+    background: url(../images/sprites.png) 0 0;
+}
+
+
+.header .nav {
+    float: right;
+    margin-right: 18.2292vw;
+}
+
+.header .nav li {
+    box-sizing: border-box;
+    float: left;
+    height: 3.2813vw;
+    line-height: 3.2813vw;
+    margin-left: 3.3854vw;
+}
+
+.header .nav li:hover {
+    border-bottom: .1042vw solid #19bc64;
+}
+
+.header .nav li a {
+    display: block;
+    font-family: PingFang-SC-Regular;
+    font-size: .8333vw;
+}
+
+/* footer部分 */
+.footer {
+    width: 100vw;
+    height: 16.3021vw;
+    overflow: hidden;
+    background-color: #202020;
+    padding-top: 2.55vw;
+    padding-bottom: 1.93vw;
+}
+
+.footer .footerline {
+    border-bottom: 2px solid #666;
+}
+
+.footer .top {
+    width: 65.36vw;
+    overflow: hidden;
+    padding-bottom: 1.93vw;
+    margin: auto;
+}
+
+.footer dl {
+    float: left;
+    width: 3.99vw;
+    margin: 0 2vw;
+}
+
+.footer dl dt {
+    margin-bottom: 2.03vw;
+    font-family: PingFang-SC-Regular;
+    font-size: 0.833vw;
+    color: #e6e6e6;
+}
+
+.footer dl dd {
+    margin-bottom: 1.25vw;
+    font-family: PingFang-SC-Regular;
+    font-size: 0.72vw;
+    color: #999999;
+}
+
+.footer dl dd .location {
+    float: left;
+    display: block;
+    width: 1.4583vw;
+    height: 1.6146vw;
+    background: url(../images/sprites.png) no-repeat -2.9167vw 0;
+    background-size: 20.8333vw 20.8333vw;
+}
+
+.footer dl dd .phone {
+    float: left;
+    display: block;
+    width: 1.5625vw;
+    height: 1.5625vw;
+    background: url(../images/sprites.png) no-repeat -6.0417vw 0;
+    background-size: 20.8333vw 20.8333vw;
+}
+
+.footer dl dd .network {
+    float: left;
+    display: block;
+    width: 1.6146vw;
+    height: 1.5625vw;
+    background: url(../images/sprites.png) no-repeat -4.375vw 0;
+    background-size: 20.8333vw 20.8333vw;
+}
+
+.footer .line {
+    box-sizing: border-box;
+    width: 1px;
+    height: 5.21vw;
+    background-color: #4d4d4d;
+    margin-top: 4.17vw;
+}
+
+.footer .contactus {
+    margin-left: 1.04vw;
+    line-height: 1.35vw;
+    width: 13.49vw;
+}
+
+.footer .contactus span {
+    margin-right: 0.52vw;
+}
+
+.footer .copyright {
+    font-size: .625vw;
+    line-height: .625vw;
+    color: #999999;
+    text-align: center;
+    margin-top: 1.04vw;
+}
+
+@media screen and (min-width:1300px) {
+
+    /* header部分 */
+
+    .header {
+        height: 63px;
+    }
+
+    .header .logo {
+        margin-top: 14px;
+        width: 54px;
+        height: 33px;
+        background-size: 400px 400px;
+    }
+
+
+    .header .nav {
+        float: right;
+        margin-right: 18.2292vw;
+    }
+
+    .header .nav li {
+        box-sizing: border-box;
+        float: left;
+        height: 63px;
+        line-height: 63px;
+        margin-left: 3.3854vw;
+    }
+
+    .header .nav li:hover {
+        border-bottom: .1042vw solid #19bc64;
+    }
+
+    .header .nav li a {
+        display: block;
+        font-family: PingFang-SC-Regular;
+        font-size: 16px;
+    }
+
+
+
+}
+
+@media screen and (max-width:1300px) {
+
+    /* header部分 */
+
+    .header {
+        height: 3.2813vw;
+    }
+
+    .header .logo {
+        margin-top: .7292vw;
+        width: 2.8125vw;
+        height: 1.7188vw;
+        background-size: 20.8333vw 20.8333vw;
+    }
+
+
+    .header .nav {
+        float: right;
+        margin-right: 18.2292vw;
+    }
+
+    .header .nav li {
+        box-sizing: border-box;
+        float: left;
+        height: 3.2813vw;
+        line-height: 3.2813vw;
+        margin-left: 3.3854vw;
+    }
+
+    .header .nav li:hover {
+        border-bottom: .1042vw solid #19bc64;
+    }
+
+    .header .nav li a {
+        display: block;
+        font-family: PingFang-SC-Regular;
+        font-size: .8333vw;
+    }
+}

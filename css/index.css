@@ -1,0 +1,659 @@
+/* 轮播图 */
+
+.banner {
+    width: 100vw;
+    height: 35.4vw;
+    margin-top: 2px;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner ul {
+    position: absolute;
+    left: 0px;
+    top: 0;
+    width: 300%;
+}
+
+.banner ul li {
+    float: left;
+    width: 100vw;
+}
+
+.banner ul li img {
+    display: block;
+    width: 100vw;
+    height: 35.4vw
+}
+
+.banner .circle {
+    float: left;
+    position: absolute;
+    left: 50%;
+    bottom: 15px;
+    transform: translateX(-50%);
+}
+
+.banner .circle li {
+    float: left;
+    width: 1vw;
+    height: 1vw;
+    margin: 0 .3906vw;
+    border-radius: 1vw;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.banner .circle .current {
+    background-color: #fff;
+}
+
+
+/*  生活馆模块 生活馆,背景图伸缩，轮播图的版心居中 */
+.living {
+    width: 100vw;
+    position: relative;
+}
+
+
+
+.living .title {
+    width: 41vw;
+    height: 7vw;
+    margin: auto;
+    margin-top: 7vw;
+    margin-bottom: 3.38vw;
+}
+
+.living .title img {
+    width: 41vw;
+    height: 7vw;
+}
+
+.living .button {
+    z-index: 11;
+    position: absolute;
+    top: 9.49vw;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #1f1f1f;
+    font-size: 0.75vw;
+}
+
+.living .button li {
+    float: left;
+    width: 4.79vw;
+    height: 1.77vw;
+    line-height: 1.77vw;
+    margin: 0 3vw;
+    background-color: #ffffff;
+    border: solid 1px #acacac;
+    padding: 0 0.417vw;
+}
+
+.living .button .current {
+    background-color: #916238;
+    color: #fff
+}
+
+.living .button .current {}
+
+
+.living .body {
+    position: relative;
+    width: 100vw;
+    height: 48.75vw;
+    background: url(../images/banner_bj-2.png) no-repeat center;
+    background-size: 100vw 48.75vw;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.living .body .cover1 {
+    overflow: hidden;
+    margin-left: 13.1vw;
+    margin-top: 7.42vw;
+    width: 73vw;
+    height: 36.6vw;
+}
+
+.living .body .cover {
+    overflow: hidden;
+    position: relative;
+    margin-left: -1vw;
+    width: 74vw;
+    height: 36.6vw;
+}
+
+.living .body .cover .livingbanner {
+    position: absolute;
+    left: 0;
+    width: 296vw;
+    height: 36vw;
+}
+
+.living .body .cover .livingbanner li {
+    float: left;
+    width: 74vw;
+    height: 36vw;
+}
+
+.living .body .cover .livingbanner li img {
+    width: 74vw;
+    height: 36vw;
+}
+
+
+
+.living .body .arrowleft,
+.living .body .arrowright {
+    position: absolute;
+    top: 50%;
+    width: 2.6vw;
+    height: 2.6vw;
+    border-radius: 2.6vw;
+    border: 2px solid #fff;
+    font-size: 1.0417vw;
+    color: #fff;
+    line-height: 2.6vw;
+    font-weight: 700;
+    text-align: center;
+}
+
+.living .body .arrowleft {
+    left: 5.21vw
+}
+
+.living .body .arrowright {
+    right: 5.21vw
+}
+
+.living .body .arrowleft:hover,
+.living .body .arrowright:hover {
+    cursor: pointer;
+}
+
+
+/* 设计馆 */
+
+.design {
+    width: 100vw;
+}
+
+.design .title {
+    margin-top: 7.08vw;
+    margin-bottom: 3.91vw;
+    text-align: center;
+
+}
+
+.design .title img {
+    width: 57.6vw;
+}
+
+.design ul {
+    display: flex;
+    justify-content: space-between;
+    width: 57.6vw;
+    margin: 0 auto;
+}
+
+.design ul li img {
+    width: 12.92vw;
+}
+
+
+
+
+/* 新闻馆 */
+.livingnews {
+    width: 100vw;
+    margin-top: 7.08vw;
+    position: relative;
+}
+
+
+.livingnews .title {
+    text-align: center;
+    margin-bottom: 3.54vw;
+}
+
+.livingnews .title img {
+    width: 54.06vw;
+}
+
+
+.livingnews .button {
+    z-index: 11;
+    position: absolute;
+    top: 9.49vw;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #1f1f1f;
+    font-size: 0.75vw;
+}
+
+.livingnews .button li {
+    float: left;
+    width: 4.79vw;
+    height: 1.77vw;
+    line-height: 1.77vw;
+    margin: 0 3vw;
+    background-color: #ffffff;
+    border: solid 1px #acacac;
+    padding: 0 0.417vw;
+}
+
+.livingnews .button .current {
+    background-color: #916238;
+    color: #fff;
+}
+
+.livingnews .button .current a {
+    color: #fff;
+}
+
+.livingnews .body {
+    overflow: hidden;
+    position: relative;
+    background: url(../images/livingnews-bj.png);
+    width: 100vw;
+    height: 39.84vw;
+    background-size: 100vw 39.84vw;
+}
+
+.livingnews .body .cover1 {
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    width: 65vw;
+    height: 23.44vw;
+    margin-top: 9.58vw;
+}
+
+.livingnews .body .cover {
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    width: 65.17vw;
+    height: 23.44vw;
+    margin-left: -1px;
+}
+
+.livingnews .body .banner {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 260.68vw;
+    height: 23.44vw;
+}
+
+.livingnews .body .banner li {
+    overflow: hidden;
+    float: left;
+    width: 65.17vw;
+    height: 23.44vw;
+}
+
+.livingnews .body .banner li .left {
+    position: relative;
+    float: left;
+    width: 34.17vw;
+    height: 23.44vw;
+    background-color: #fff;
+}
+
+.livingnews .body .banner li .left img {
+    width: 34.17vw;
+    height: 17.34vw;
+}
+
+.livingnews .body .banner li .left h2 {
+    padding: 0 3.02vw;
+    margin: 0.5vw 0;
+    font-size: 0.94vw;
+    color: #000000;
+}
+
+.livingnews .body .banner li .left p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    padding: 0 3.02vw;
+    font-size: 0.625vw;
+    color: #333333;
+}
+
+
+
+/* .livingnews .body .banner li .left span a {
+    font-size: 0.625vw;
+
+} */
+
+.livingnews .body .banner li .right {
+    float: right;
+    width: 30vw;
+}
+
+.livingnews .body .banner li .right .top,
+.livingnews .body .banner li .right .middle {
+    width: 30vw;
+    height: 7.29vw;
+    background-color: #ffffff;
+}
+
+.livingnews .body .banner li .right .top .img {
+    float: left;
+    width: 6.875vw;
+    height: 5.52vw;
+    margin: 0.99vw 0.99vw 0 0.78vw;
+}
+
+.livingnews .body .banner li .right .top .img img {
+    width: 100%;
+    height: 100%;
+}
+
+.livingnews .body .banner li .right .top .content {
+    float: left;
+    position: relative;
+    width: 19.79vw;
+    height: 100%;
+    text-align: center;
+}
+
+.livingnews .body .banner li .right .top .content h3 {
+    margin: 0.885vw 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    font-size: 0.73vw;
+    text-align: left;
+}
+
+.livingnews .body .banner li .right .top .content p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-size: 0.625vw;
+    text-align: left;
+}
+
+.livingnews .body .banner li .right .top .content span {
+    position: absolute;
+    bottom: 0.9375vw;
+    right: 0.52vw;
+    width: 3.49vw;
+    height: 0.99vw;
+    border-radius: 0.99vw;
+    border: solid 1px #3d3d3d;
+    line-height: 0.99vw;
+}
+
+.livingnews .body .banner li .right .top .content span a {
+    text-align: center;
+    font-size: 0.625vw;
+}
+
+.livingnews .body .banner li .right .middle {
+    margin: 0.78vw 0;
+}
+
+
+
+
+/* 服务馆 */
+
+.livingservice {
+    width: 100vw;
+}
+
+.livingservice .title {
+    width: 100%;
+    text-align: center;
+    margin-top: 7.19vw;
+    margin-bottom: 2.76vw;
+}
+
+.livingservice .title img {
+    width: 59.79vw;
+}
+
+.livingservice .suscribe {
+    margin: 2.76vw auto;
+    width: 27.92vw;
+    font-size: 0.625vw;
+    color: #202021;
+    text-align: center;
+    line-height: 1.8vw;
+}
+
+.livingservice ul {
+    overflow: hidden;
+    width: 53.02vw;
+    overflow: hidden;
+    margin: auto;
+}
+
+.livingservice ul li {
+    float: left;
+    text-align: center;
+    width: 13.54vw;
+}
+
+.livingservice ul img {
+    width: 7.81vw;
+    height: 7.81vw;
+}
+
+.livingservice ul h2 {
+    margin: 1.25vw 0;
+    font-size: 0.83vw;
+    color: #010101;
+}
+
+.livingservice ul p {
+    font-size: 0.625vw;
+    color: #666668;
+}
+
+.livingservice ul li:nth-child(2) {
+    margin: 0 6.2vw;
+}
+
+
+/* 中心馆 */
+
+.livingcenter {
+    margin-top: 7.97vw;
+    width: 100vw;
+    height: 39.84vw;
+    background: url(../images/livingcenter_bg.png);
+    background-size: contain;
+}
+
+.livingcenter .title {
+    padding-top: 4.9vw;
+    padding-bottom: 4.22vw;
+    text-align: center;
+}
+
+.livingcenter .title img {
+    width: 58.8542vw;
+    height: 6.5104vw;
+}
+
+.livingcenter ul {
+    overflow: hidden;
+    width: 43.85vw;
+    height: 22.14vw;
+    margin: auto;
+}
+
+.livingcenter ul li {
+    float: left;
+    width: 9.375vw;
+    height: 21.2vw;
+}
+
+.livingcenter ul li:nth-child(2) {
+    margin: 0 7.81vw;
+}
+
+.livingcenter ul li .header {
+    width: 7.5vw;
+    height: 7.5vw;
+    border-radius: 7.5vw;
+    border: dotted 1px #ffffff;
+    margin-left: 1.09vw;
+    font-size: 1.25vw;
+    height: 7.5vw;
+    color: #fefefe;
+    text-align: center;
+}
+
+.livingcenter ul li .header p {
+    margin-top: 2.3vw;
+    margin-left: 2.3vw;
+    width: 2.7vw;
+    height: 2.8vw;
+}
+
+.livingcenter ul li .body {
+    box-sizing: border-box;
+    width: 1px;
+    height: 4.3;
+    margin-left: 4.7;
+    border: 1px dotted #fff;
+}
+
+.livingcenter ul li .footer1 {
+    box-sizing: border-box;
+    padding-top: 0.8vw;
+    width: 9.4vw;
+    height: 9.4vw;
+    border: dotted 1px #ffffff;
+    text-align: center;
+}
+
+.livingcenter ul li .footer1 .box {
+    margin-left: 1.2vw;
+    width: 9.4vw;
+    height: 9.4vw;
+    font-size: 0.9vw;
+    transform: scale(0.7);
+    transform-origin: 0 0;
+    white-space: nowrap;
+    color: #fff;
+    line-height: 1.8vw
+}
+
+.livingcenter ul li .footer1 p {
+    margin: auto;
+    font-family: MicrosoftYaHei;
+    font-size: 0.6vw;
+    line-height: 1.2vw;
+    color: #ffffff;
+}
+
+/* 楼层电梯 */
+.floor {
+    display: none;
+    position: fixed;
+    top: 20%;
+    right: 6.4vw;
+}
+
+.floor li {
+    width: 5.52vw;
+    height: 2.6vw;
+    background-color: #482200;
+    border-bottom: 1px solid #fff;
+    line-height: 2.6vw;
+    color: #fff;
+    font-size: 0.73vw;
+}
+
+
+
+.floor li:hover {
+    cursor: pointer;
+}
+
+.floor li span {
+    float: left;
+    display: block;
+    margin-top: .7292vw;
+    margin-left: .5208vw;
+    width: 1.35vw;
+    height: 1.04vw;
+    margin-right: 2px;
+    background: url(../images//sprites.png) no-repeat;
+    background-size: 20.8333vw 20.8333vw;
+}
+
+.floor li .livingspan {
+    background-position: -1.7708vw -3.1771vw;
+}
+
+.floor li .designspan {
+    background-position: 0 -1.8229vw;
+}
+
+.floor li .newsspan {
+    background-position: 0 -2.8125vw;
+}
+
+.floor li .servespan {
+    background-position: 0 -3.9063vw;
+}
+
+.floor li .centerspan {
+    background-position: 0 -5.0521vw;
+}
+
+.floor li .topbtn {
+    background-position: -1.5104vw -1.9271vw;
+}
+
+.floor li span img {
+    width: 100%;
+
+}
+
+.floor .title {
+    text-align: center;
+}
+
+.floor .totop .topbtn {
+    width: .9375vw;
+    margin-left: 1.4063vw;
+}
+
+.floor .floorliving img,
+.floor .floorcenter img {
+    width: 80%;
+}
+
+.floor .floorliving,
+.floor .floorcdesing,
+.floor .floornews,
+.floor .floorservice,
+.floor .floorcenter {
+    background-color: #916238;
+}
+
+
+
+.floor .totop {
+    border-bottom: none;
+}
